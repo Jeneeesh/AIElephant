@@ -61,3 +61,23 @@ AIElephant is an innovative artificial intelligence-powered robotic elephant des
 ```bash
 git clone https://github.com/yourusername/AIElephant.git
 cd AIElephant
+
+```
+### 2. Install Dependencies
+```bash
+cd frontend
+npm install
+
+```
+#### or
+```bash
+yarn install
+
+```
+### 3. Configure Environment
+
+```bash
+REACT_APP_API_URL=http://localhost:5000
+REACT_APP_WS_URL=ws://localhost:5000/ws
+REACT_APP_ELEPHANT_ID=EL001
+REACT_APP_MAPBOX_KEY=your_key_here
